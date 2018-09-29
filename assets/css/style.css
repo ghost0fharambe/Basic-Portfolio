@@ -67,14 +67,23 @@ body {
   }
 
   .header1 {
-    width: 960px;
     background-color: #ffffff;
-    margin: auto;
+    height: 500px;
   }
 
   .aboutMe {
-    margin: auto;
-    width: 960px;
+    overflow: hidden;
+    margin: 100px auto;
+    max-width: 960px;
+    border: solid #cccccc 2px;
+  }
+
+  .aboutMe h1 {
+    margin-bottom: 10px;
+    border-bottom: #cccccc solid 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
   }
 
 
@@ -96,10 +105,12 @@ p {
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: teal;
+  margin: auto;
 }
 
 .form {
   font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
 }
 
 figure {
@@ -121,4 +132,29 @@ figure {
   color: white;
   background-color: teal;
   border-radius: 10px;
+}
+
+.profPic {
+  float: left;
+  padding-left: 10px;
+}
+
+.sendMessage {
+  position: relative;
+  text-align: center;
+  margin:50px auto;
+  background: white;
+  border: #cccccc solid 2px;
+  width: 960px;
+}
+
+.contact {
+  border-bottom: #cccccc solid 2px;
+}
+
+#submit {
+  background-color: teal;
+  color: white;
+  height: 30px;
+  width: 60px;
 }
