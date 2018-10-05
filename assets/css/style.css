@@ -73,7 +73,7 @@ body {
 
   .aboutMe {
     overflow: hidden;
-    margin: 100px auto;
+    margin: 50px auto;
     max-width: 960px;
     border: solid #cccccc 2px;
   }
@@ -157,4 +157,16 @@ figure {
   color: white;
   height: 30px;
   width: 60px;
+}
+
+div.portfolio {
+  margin: 50px auto;
+  text-align: center;
+  background-color: #ffffff;
+  width: 960px;
+  border: #cccccc solid 2px;
+}
+
+div.portfolio h1 {
+  border-bottom: #cccccc solid 2px;
 }
